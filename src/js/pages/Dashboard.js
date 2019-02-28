@@ -32,6 +32,35 @@ export default class Dashboard extends React.Component {
                   <input type="submit" value="Submit" />
                   </form>
                       <span>  <button type="button" class="btn"><Icon size={'16'} icon={edit}/></button></span>
+                      <div class ="col-15">
+                          <div class ="row-1">
+                              <div class="panel-heading"> DATA </div>
+                                 <div class ="panel panel-primary">
+                                <div class="panel-body">
+                                 <div class="table-hover">
+                                  <table class ="table">
+                                  <thead>
+                                 <tr>
+                                 <th scope="col">#</th>
+                                 <th scope="col">MedName</th>
+                                 <th scope="col">Dosage</th>
+                                 <th scope="col">Frequency</th>
+                                 </tr>
+                                 </thead>
+                                 <tbody>
+                                 <tr>
+                                 <th scope="row">2</th>
+                                 <td>112</td>
+                                 <td>History </td>
+                                 <td>Pending </td>
+                                 </tr>
+                                 </tbody>
+                                 </table>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                              </div>
                   </div>
                 </div>
               </div>
@@ -54,6 +83,35 @@ export default class Dashboard extends React.Component {
                 <input type="submit" value="Submit" />
                 </form>
                     <span>  <button type="button" class="btn"><Icon size={'16'} icon={edit}/></button></span>
+                    <div class ="col-15">
+                        <div class ="row-1">
+                            <div class="panel-heading"> DATA</div>
+                               <div class ="panel panel-primary">
+                              <div class="panel-body">
+                               <div class="table-hover">
+                                <table class ="table">
+                                <thead>
+                               <tr>
+                               <th scope="col">#</th>
+                               <th scope="col">Steps</th>
+                               <th scope="col">Sleep</th>
+                               <th scope="col">Calories</th>
+                               </tr>
+                               </thead>
+                               <tbody>
+                               <tr>
+                               <th scope="row">2</th>
+                               <td>112</td>
+                               <td>History </td>
+                               <td>Pending </td>
+                               </tr>
+                               </tbody>
+                               </table>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            </div>
                 </div>
               </div>
             </div>
@@ -64,6 +122,35 @@ export default class Dashboard extends React.Component {
                 </div>
                 <div class="panel-body">
                               <span>  <button type="button" class="btn"><Icon size={'16'} icon={edit}/></button></span>
+                              <div class ="col-15">
+                                  <div class ="row-1">
+                                      <div class="panel-heading"> DATA </div>
+                                         <div class ="panel panel-primary">
+                                        <div class="panel-body">
+                                         <div class="table-hover">
+                                          <table class ="table">
+                                          <thead>
+                                         <tr>
+                                         <th scope="col">#</th>
+                                         <th scope="col">SessionDate</th>
+                                         <th scope="col">Time</th>
+                                         <th scope="col">Comments</th>
+                                         </tr>
+                                         </thead>
+                                         <tbody>
+                                         <tr>
+                                         <th scope="row">2</th>
+                                         <td>112</td>
+                                         <td>History </td>
+                                         <td>Pending </td>
+                                         </tr>
+                                         </tbody>
+                                         </table>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      </div>
                 </div>
               </div>
             </div>
@@ -76,8 +163,38 @@ export default class Dashboard extends React.Component {
                   </div>
               </div>
             </div>
+<div class ="col-8">
+    <div class ="row-1">
+        <div class="panel-heading"> BLOCKS</div>
+           <div class ="panel panel-primary">
+          <div class="panel-body">
+           <div class="table-hover">
+            <table class ="table">
+            <thead>
+           <tr>
+           <th scope="col">#</th>
+           <th scope="col">TransactionID</th>
+           <th scope="col">Category</th>
+           <th scope="col">Status</th>
+           <th scope="col">Response</th>
+           </tr>
+           </thead>
+           <tbody>
+           <tr>
+           <th scope="row">2</th>
+           <td>112</td>
+           <td>History </td>
+           <td>Pending </td>
+           </tr>
+           </tbody>
+           </table>
+              </div>
+            </div>
           </div>
-          </div>
+        </div>
+        </div>
+      </div>
+    </div>
     );
   }
 }
