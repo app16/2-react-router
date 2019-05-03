@@ -40,7 +40,7 @@ export default class ProfileBar extends React.Component {
                 <p class="navbar-text"><b>John Appleseed</b></p>
               </li>
               <li>
-                <p class="navbar-text"><b>PA123</b></p>
+                <p class="navbar-text"><b>PA3</b></p>
               </li>
               <li>
                 <p class="navbar-text"><b>Male</b></p>

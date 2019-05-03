@@ -9,7 +9,7 @@ export default class Dashboard1 extends React.Component {
             <div class ="row-1">
               <div class ="panel panel-primary">
                 <div class="panel-heading">
-                    Medication
+                    Medication1
                   </div>
                   <div class="panel-body">
                       Panel content
